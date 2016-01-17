@@ -5,7 +5,7 @@ redux-tutorial
 
 这是一个手把手帮助你理解、掌握`flux`的教程，特别是[Redux](https://github.com/rackt/redux)。
 
-理解掌握`Redux`的第一选择是去参看[官方文档](http://redux.js.org/)([中文翻译文档](http://camsong.github.io/redux-in-chinese/))。当前的教程只是通过使用`Redux`来介绍`flux`的概念。未来你想要了解更多更详细的内容，你应该去参考[Redux的官方文档](http://redux.js.org/)。
+理解掌握`Redux`的第一选择是去查看[官方文档](http://redux.js.org/)([中文翻译文档](http://camsong.github.io/redux-in-chinese/))。当前的教程只是通过使用`Redux`来介绍`flux`的概念。未来你想要了解更多更详细的内容，你应该去参考[Redux的官方文档](http://redux.js.org/)。
 
 ### 学习的基本条件
 你应该懂一些`ES6`和 `ES7`（Object Spread）的语法，才能理解例子中的代码。同时，该教程使用的是`redux 3.0.2` 和 `react-redux 4.0.0`。
