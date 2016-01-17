@@ -95,7 +95,7 @@ var asyncSayActionCreator_0 = function (message) {
 // Here's the trick: instead of returning an action, we'll return a function. And this function will be the
 // one to dispatch the action when it seems appropriate to do so. But if we want our function to be able to
 // dispatch the action it should be given the dispatch function. Then, this should look like this:
-// 这个有一个小技巧：不返回一个action，我们return 一个 function。然后这个function会dispatch action 在适当的时候。但是，
+// 这个有一个小技巧：不返回一个action，我们return一个function。然后这个function会在适当的时候dispatch action。但是，
 // 如果我们想让我们的function可以去dispatch action，它应该被认定为一个dispatch function。然后，我们应该这么做
 
 var asyncSayActionCreator_1 = function (message) {
@@ -112,7 +112,7 @@ var asyncSayActionCreator_1 = function (message) {
 // Again you'll notice that our action creator is not returning an action, it is returning a function.
 // So there is a high chance that our reducers won't know what to do with it. But you never know, so let's
 // try it out and find out what happens...
-// 我们注意到action creator没有return 一个 action，它 return一个function。
+// 我们注意到action creator没有return一个action，它return一个function。
 // 所以极有可能我们的reducers不知道怎么处理它(这个函数)。但是，我们永远不知道,所以我们可以试着看看发生了什么
 
 // Go to next tutorial: 08_dispatch-async-action-2.js
