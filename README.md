@@ -1,31 +1,40 @@
 redux-tutorial
 =========================
 
-This repository contains a step by step tutorial to help grasp flux and more specifically [Redux](https://github.com/rackt/redux).
+[此教程为翻译作品，点击进去原版教程](https://github.com/happypoulp/redux-tutorial)
 
-The official and very exhaustive Redux documentation is available [here](http://redux.js.org/) and should be your number one source of truth regarding Redux. The present tutorial will only offer you an introduction to flux concepts through Redux use. For further or more detailed info, please refer to the Redux documentation.
+这是一个手把手帮助你理解、掌握`flux`的教程，特别是[Redux](https://github.com/rackt/redux)。
 
-### Prerequisites
-It is required for you to know a bit of ES6 and ES7 (Object Spread) to correctly understand some of the examples given in this repo. Also be aware that this tutorial targets redux 3.0.2 and react-redux 4.0.0.
+理解掌握`Redux`的第一选择是去参看[官方文档](http://redux.js.org/)([中文翻译文档](http://camsong.github.io/redux-in-chinese/))。当前的教程只是通过使用`Redux`来介绍`flux`的概念。未来你想要了解更多更详细的内容，你应该去参考[Redux的官方文档](http://redux.js.org/)。
 
-### Clone the repository
-`git clone https://github.com/happypoulp/redux-tutorial.git`
+### 学习的基本条件
+你应该懂一些`ES6`和 `ES7`（Object Spread）的语法，才能理解例子中的代码。同时，该教程使用的是`redux 3.0.2` 和 `react-redux 4.0.0`。
 
-### Move into repository
+### 下载到本地
+`git clone https://github.com/qiuyuntao/redux-tutorial.git`
+
+### 进入项目
 `cd redux-tutorial`
 
-### Install dependencies
-`npm install`
+### 安装依赖
+`npm install` 可能会出现被墙的情况
 
-### Browse the tutorial
+国内的小伙伴可以使用[淘宝镜像](http://npm.taobao.org/)
 
-This tutorial is split into a sequence of javascript files that are intended to be read in order. 
+`npm install -g cnpm --registry=https://registry.npm.taobao.org`
 
-Start with the first tutorial: [Introduction](00_introduction.js)
+之后用`cnpm`来代替`npm`
 
-### Run an example
+### 浏览教程
 
-Being real js files, each example can be run to verify that it works as intended or to do your own experiments:
+教程被拆分成几个连续的`javascript`文件,可以直接阅读、学习
+
+开始第一个教程: [介绍](00_introduction.js)
+
+### 运行例子
+
+每个js文件都是可以运行，可以验证里面所说的内容或者你也试着去改变里面的代码验证你的想法。
+
 
 `npm run example 01_simple-action-creator.js`
 
